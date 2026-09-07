@@ -5,17 +5,17 @@ function App() {
   return (
     <div className="flex vw-100 flex-col md:flex-row h-screen justify-center items-center">
       <div>
-        <div className="text-6xl w-full text-center md:text-left px-5 changa-one-regular py-5">Yaseen Halabi</div>
-        <div className="w-full px-5 flex flex-col md:flex-row gap-4" >
+        <div className="md:text-6xl text-3xl w-full text-center md:text-left px-5 changa-one-regular py-3">Yaseen Halabi</div>
+        <div className="w-full px-5 flex flex-col md:flex-row md:gap-4 gap-0 md:min-w-130" >
           <video
-            className="h-60 mb-5 md:mb-0"
+            className="h-60 mb-3 md:mb-0"
             src={PictureEverydayVideo}
             autoPlay
             loop
             playsInline
             muted
           />
-          <div className="flex flex-col gap-auto md:justify-evenly gap-1 mb-5">
+          <div className="flex flex-col text-sm md:text-base gap-auto md:justify-evenly gap-1 mb-3 max-w-100">
             <div>Nice to meet you! Three things you should know:</div>
             <div>1) I enjoy solving problems with software. I also enjoy solving problems with software.</div>
             <div>2) This website was handcrafted, no LLMs.</div>
@@ -30,8 +30,8 @@ function App() {
         </div>
       </div>
       <div className="flex w-full h-full justify-center">
-        <a className="bg-blue-400 w-full py-10 text-white text-xl font-bold flex justify-center items-center cursor-pointer"><span>Projects</span><ChevronRight /></a>
-        <a className="bg-red-400 w-full py-10 text-white text-xl font-bold flex justify-center items-center cursor-pointer"><span>Experience</span><ChevronRight /></a>
+        <a href="/projects" className="bg-blue-400 w-full py-10 text-white text-xl font-bold flex justify-center items-center cursor-pointer"><span>Projects</span><ChevronRight /></a>
+        <a href="/experience" className="bg-red-400 w-full py-10 text-white text-xl font-bold flex justify-center items-center cursor-pointer"><span>Experience</span><ChevronRight /></a>
       </div>
       {/* <div class="subtitle">This code was handcrafted without AI code/design</div> */}
     </div>

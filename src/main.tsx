@@ -1,6 +1,6 @@
 import { createRoot } from 'react-dom/client'
-import App from './App.tsx'
+import Navigator from './Navigator.tsx'
 
 createRoot(document.getElementById('root')!).render(
-    <App />
+    <Navigator />
 )
