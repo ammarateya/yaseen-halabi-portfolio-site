@@ -14,7 +14,7 @@ function App() {
             loop
             muted
           />
-          <div className="flex flex-col gap-auto md:justify-evenly gap-1 my-1">
+          <div className="flex flex-col gap-auto md:justify-evenly gap-1 mb-5">
             <div>Nice to meet you! Three things you should know:</div>
             <div>1) I enjoy solving problems with software. I also enjoy solving problems with software.</div>
             <div>2) This website was handcrafted, no LLMs.</div>
