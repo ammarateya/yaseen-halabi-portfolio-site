@@ -8,10 +8,11 @@ function App() {
         <div className="text-6xl w-full text-center md:text-left px-5 changa-one-regular py-5">Yaseen Halabi</div>
         <div className="w-full px-5 flex flex-col md:flex-row gap-4" >
           <video
-            className="h-60 mb-5"
+            className="h-60 mb-5 md:mb-0"
             src={PictureEverydayVideo}
             autoPlay
             loop
+            playsInline
             muted
           />
           <div className="flex flex-col gap-auto md:justify-evenly gap-1 mb-5">
