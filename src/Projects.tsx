@@ -43,7 +43,7 @@ function Projects() {
     },
     {
       title: "HackIllinois Systems",
-      description: "I was on the team building the mobile app for Hackillinois '26. Now I'm the Systems team co-lead managing 10 developers across numerous projects.",
+      description: "I was on the team building the mobile app for Hackillinois '26. Now I'm the 2027 Systems co-lead managing 10 developers across numerous projects.",
       image: hack,
       link: "https://hackillinois.org"
     },
