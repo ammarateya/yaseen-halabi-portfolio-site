@@ -2,7 +2,9 @@ import PictureEverydayVideo from './assets/picture-everyday.mp4'
 import './App.css'
 import { ChevronRight } from 'lucide-react'
 import { Link } from 'wouter'
+import { useState } from 'react'
 function App() {
+  const [darkModeEnabled, setDarkModeEnabled] = useState(false)
   return (
     <div className="flex vw-100 flex-col md:flex-row h-screen justify-center items-center">
       <div>
@@ -27,6 +29,18 @@ function App() {
                 <img className="h-8 object-cover" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1280px-LinkedIn_icon.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail"/>
               </a>
             </div>
+<label className="inline-flex items-center cursor-pointer select-none">
+      <input
+        type="checkbox"
+        checked={darkModeEnabled}
+        onChange={() => setDarkModeEnabled(!darkModeEnabled)}
+        className="sr-only peer"
+      />
+      <div className="relative w-11 h-6 bg-gray-200 peer-focus:outline-none  rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-green-400"></div>
+      <span className="ms-3 text-sm font-medium text-gray-900">
+        {darkModeEnabled ? 'You expected me to make a dark mode? Thats mad lame' : 'Light mode'}
+      </span>
+    </label>
           </div>
         </div>
       </div>
