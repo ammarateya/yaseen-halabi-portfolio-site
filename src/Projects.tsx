@@ -1,6 +1,3 @@
-
-import PictureEverydayVideo from './assets/picture-everyday.mp4'
-import './App.css'
 import { ChevronRight } from 'lucide-react'
 import halabi from "./assets/halabi.png"
 import delay from "./assets/delay.png"
@@ -52,7 +49,7 @@ function Projects() {
       title: "HackIllinois Systems",
       description: "I was on the team building the mobile app for Hackillinois '26. Now I'm the Systems team co-lead managing 10 developers across numerous projects.",
       image: hack,
-      link: "hackillinois.org"
+      link: "https://hackillinois.org"
     },
   ]
   return (
@@ -61,12 +58,12 @@ function Projects() {
         <div className="md:text-6xl text-3xl w-full text-center md:text-left px-5 changa-one-regular pt-5">Projects/Work</div>
         <div className="flex flex-col justify-center items-start">
           {PROJECT_DATA.map(item => 
-            <a href={item.link} className="flex flex-row gap-2 cursor-pointer hover:bg-gray-50 p-4">
+            <a href={item.link} className="flex flex-col md:flex-row gap-2 cursor-pointer hover:bg-gray-50 p-4">
               <div className="flex flex-col">
                 <div className="font-bold" >{item.title}</div>
                 <div>{item.description}</div>
               </div>
-              <img src={item.image} className="w-40 object-contain"/>
+              <img src={item.image} className="md:w-40 w-full object-contain"/>
             </a>
           )}
         </div>

@@ -1,4 +1,3 @@
-import './App.css'
 import { ChevronRight } from 'lucide-react'
 import catan from "./assets/catan.jpg"
 import merch from "./assets/merch.png"
@@ -9,18 +8,24 @@ import thaakat from "./assets/thaakat.png"
 import turkish from "./assets/turkish.png"
 import cat from "./assets/cat.jpeg"
 import chess from "./assets/chess.png"
+import wopo from "./assets/wopo.jpg"
+import smash from "./assets/smash.jpg"
+import favoritedrink from "./assets/favoritedrink.jpg"
 function Life() {
   
   const IMAGE_LIST = [
-    [catan, "I play Catan"],
+    [wopo, "I used to be good at this sport"],
     [merch, "I designed this merch"],
+    [catan, "I play this"],
     [mtc, "President of this club"],
+    [favoritedrink, "My favorite drink"],
     [onepiece, "I'm fully caught up"],
     [syria, "My origin"],
     [thaakat, "I designed this merch"],
+    [smash, "I would probably beat you in this"],
     [turkish, "I designed this tshirt"],
     [cat, "My cat"],
-    [chess, "I play chess sometimes"],
+    [chess, "I play this sometimes"],
   ]
 
 
