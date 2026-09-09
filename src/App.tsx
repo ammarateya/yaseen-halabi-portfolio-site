@@ -1,6 +1,7 @@
 import PictureEverydayVideo from './assets/picture-everyday.mp4'
 import './App.css'
 import { ChevronRight } from 'lucide-react'
+import { Link } from 'wouter'
 function App() {
   return (
     <div className="flex vw-100 flex-col md:flex-row h-screen justify-center items-center">
@@ -30,8 +31,8 @@ function App() {
         </div>
       </div>
       <div className="flex w-full h-full justify-center">
-        <a href="/projects" className="bg-blue-400 w-full py-10 text-white text-xl font-bold flex justify-center items-center cursor-pointer"><span>Work/Projects</span><ChevronRight /></a>
-        <a href="/life" className="bg-red-400 w-full py-10 text-white text-xl font-bold flex justify-center items-center cursor-pointer"><span>Life</span><ChevronRight /></a>
+        <Link href="/projects" className="bg-blue-400 w-full py-10 text-white text-xl font-bold flex justify-center items-center cursor-pointer"><span>Work/Projects</span><ChevronRight /></Link>
+        <Link href="/life" className="bg-red-400 w-full py-10 text-white text-xl font-bold flex justify-center items-center cursor-pointer"><span>Life</span><ChevronRight /></Link>
       </div>
       {/* <div class="subtitle">This code was handcrafted without AI code/design</div> */}
     </div>

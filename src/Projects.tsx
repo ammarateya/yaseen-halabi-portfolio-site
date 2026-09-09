@@ -6,6 +6,8 @@ import zymbly from "./assets/zymbly.jpg"
 import arcade from "./assets/arcade.png"
 import events from "./assets/events.png"
 import hack from "./assets/hack.png"
+import { Link } from "wouter"
+
 function Projects() {
 
   const PROJECT_DATA = [
@@ -69,7 +71,7 @@ function Projects() {
         </div>
       </div>
       <div className="flex w-full md:w-auto flex-1 md:flex-none">
-        <a href="/" className="bg-red-400 md:w-70 w-full py-10 text-white text-xl font-bold flex justify-center items-center cursor-pointer"><span>Home</span><ChevronRight /></a>
+        <Link href="/" className="bg-red-400 md:w-70 w-full py-10 text-white text-xl font-bold flex justify-center items-center cursor-pointer"><span>Home</span><ChevronRight /></Link>
       </div>
       {/* <div class="subtitle">This code was handcrafted without AI code/design</div> */}
     </div>
