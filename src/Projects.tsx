@@ -60,7 +60,7 @@ function Projects() {
         <div className="md:text-6xl text-3xl w-full text-center md:text-left px-5 changa-one-regular pt-5">Notable Projects/Work</div>
         <div className="flex flex-col justify-center items-start">
           {PROJECT_DATA.map(item => 
-            <a href={item.link} className="flex flex-col md:flex-row gap-2 cursor-pointer hover:bg-gray-50 p-4 md:justify-between md:w-full">
+            <a target="_blank" href={item.link} className="flex flex-col md:flex-row gap-2 cursor-pointer hover:bg-gray-50 p-4 md:justify-between md:w-full">
               <div className="flex flex-col">
                 <div className="font-bold" >{item.title}</div>
                 <div>{item.description}</div>

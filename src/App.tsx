@@ -20,7 +20,7 @@ function App() {
           />
           <div className="flex flex-col text-sm md:text-base gap-auto md:justify-evenly gap-1 mb-3 max-w-100">
             <div>Welcome to my site! A couple things you should know:</div>
-            <div>1) This website was handcrafted, no LLMs.</div>
+            <div>1) This website was <a target="_blank" className="underline text-blue-600" href="https://github.com/yaseenhalabi/yaseen-halabi-portfolio-site.git">handcrafted</a>, no LLMs.</div>
             <div>2) I enjoy solving problems with software. I also enjoy solving problems with software.</div>
             <div>3) We should chat. Even for no reason!</div>
             <div className="flex flex-row items-center gap-2">
@@ -38,7 +38,7 @@ function App() {
       />
       <div className="relative w-11 h-6 bg-gray-200 peer-focus:outline-none  rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-green-400"></div>
       <span className="ms-3 text-sm font-medium text-gray-900">
-        {darkModeEnabled ? 'You expected me to make a dark mode? Thats mad lame' : 'Light mode'}
+        {darkModeEnabled ? 'You expected me to make a dark mode? Thats mad lame' : 'Light mode on'}
       </span>
     </label>
           </div>
@@ -48,7 +48,6 @@ function App() {
         <Link href="/projects" className="bg-blue-400 w-full py-10 text-white text-xl font-bold flex justify-center items-center cursor-pointer"><span>Work/Projects</span><ChevronRight /></Link>
         <Link href="/life" className="bg-red-400 w-full py-10 text-white text-xl font-bold flex justify-center items-center cursor-pointer"><span>Life</span><ChevronRight /></Link>
       </div>
-      {/* <div class="subtitle">This code was handcrafted without AI code/design</div> */}
     </div>
   )
 }
