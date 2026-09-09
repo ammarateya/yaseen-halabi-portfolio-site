@@ -18,6 +18,12 @@ function Projects() {
       link: "https://apps.apple.com/us/app/delay-study-before-you-scroll/id6749641307"
     },
     {
+      title: "Arcade",
+      description: "I was the first intern at this awesome series A startup in SF. This was one of the first job experiences where I did 99% AI code, and got to ship some substantial features for thousands of users.",
+      image: arcade,
+      link: "https://arcade.software"
+    },
+    {
       title: "Pathlit",
       description: "My first job. They were a pre-seed startup who raised 1mil. I joined my freshman year of college as the 6th person on the team. Worked on optimizing the speed of the AI workflow builder in addition to adding more tools to its collection.",
       image: pathlit,
@@ -30,18 +36,6 @@ function Projects() {
       link: "https://www.zymbly.com/"
     },
     {
-      title: "Arcade",
-      description: "I was the first intern at this awesome series A startup in SF. This was one of the first job experiences where I did 99% AI code, and got to ship some substantial features for thousands of users.",
-      image: arcade,
-      link: "https://arcade.software"
-    },
-    {
-      title: "Halabi",
-      description: "200 downloads - my first app. It was a contacts manager designed to make tagging contacts easy.",
-      image: halabi,
-      link: "https://apps.apple.com/us/app/halabi/id6667094995"
-    },
-    {
       title: "EventsAtUIUC.com",
       description: "Over 10k total site visits. I scrape ~900 instagrams using distribution browser automation on a cron job every day. I also made it for Michigan, Purdue, and Wisconsin. I get a lot of free food this way. ",
       image: events,
@@ -52,6 +46,12 @@ function Projects() {
       description: "I was on the team building the mobile app for Hackillinois '26. Now I'm the Systems team co-lead managing 10 developers across numerous projects.",
       image: hack,
       link: "https://hackillinois.org"
+    },
+    {
+      title: "Halabi",
+      description: "200 downloads - my first app. It was a contacts manager designed to make tagging contacts easy.",
+      image: halabi,
+      link: "https://apps.apple.com/us/app/halabi/id6667094995"
     },
   ]
   return (
