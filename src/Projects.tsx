@@ -17,7 +17,7 @@ function Projects() {
     },
     {
       title: "Pathlit",
-      description: "My first job. I joined my freshman year of college as the 6th person on the team. Worked on optimizing the speed of the AI workflow builder in addition to adding more tools to its collection.",
+      description: "My first job. They were a pre-seed startup who raised 1mil. I joined my freshman year of college as the 6th person on the team. Worked on optimizing the speed of the AI workflow builder in addition to adding more tools to its collection.",
       image: pathlit,
       link: "https://pathlit.com"
     },
@@ -29,7 +29,7 @@ function Projects() {
     },
     {
       title: "Arcade",
-      description: "I was the first intern at an awesome series A startup in SF. This was one of the first job experiences where I did 99% AI code, and got to ship some substantial features for thousands of users.",
+      description: "I was the first intern at this awesome series A startup in SF. This was one of the first job experiences where I did 99% AI code, and got to ship some substantial features for thousands of users.",
       image: arcade,
       link: "https://arcade.software"
     },
@@ -41,7 +41,7 @@ function Projects() {
     },
     {
       title: "EventsAtUIUC.com",
-      description: "Over 10k total site visits. I scrape ~900 instagrams using distribution browser automation on a cron job every day. I get a lot of free food this way. There's also one for Michigan, Purdue, and Wisconsin.",
+      description: "Over 10k total site visits. I scrape ~900 instagrams using distribution browser automation on a cron job every day. I also made it for Michigan, Purdue, and Wisconsin. I get a lot of free food this way. ",
       image: events,
       link: "https://eventsatuiuc.com"
     },
@@ -55,7 +55,7 @@ function Projects() {
   return (
     <div className="flex flex-col md:flex-row min-h-dvh md:items-stretch">
       <div>
-        <div className="md:text-6xl text-3xl w-full text-center md:text-left px-5 changa-one-regular pt-5">Projects/Work</div>
+        <div className="md:text-6xl text-3xl w-full text-center md:text-left px-5 changa-one-regular pt-5">Notable Projects/Work</div>
         <div className="flex flex-col justify-center items-start">
           {PROJECT_DATA.map(item => 
             <a href={item.link} className="flex flex-col md:flex-row gap-2 cursor-pointer hover:bg-gray-50 p-4">

@@ -11,6 +11,7 @@ import chess from "./assets/chess.png"
 import wopo from "./assets/wopo.jpg"
 import smash from "./assets/smash.jpg"
 import favoritedrink from "./assets/favoritedrink.jpg"
+import muslim from "./assets/muslim.png"
 function Life() {
   
   const IMAGE_LIST = [
@@ -23,6 +24,7 @@ function Life() {
     [syria, "My origin"],
     [thaakat, "I designed this merch"],
     [smash, "I would probably beat you in this"],
+    [muslim, "I'm Muslim"],
     [turkish, "I designed this tshirt"],
     [cat, "My cat"],
     [chess, "I play this sometimes"],
@@ -32,7 +34,7 @@ function Life() {
   return (
     <div className="flex flex-col md:flex-row min-h-dvh md:items-stretch">
       <div className="">
-        <div className="md:text-6xl text-3xl w-full text-center md:text-left px-5 changa-one-regular mt-5">Life</div>
+        <div className="md:text-6xl text-3xl w-full text-center md:text-left px-5 changa-one-regular mt-5">My Life</div>
         <div className="flex flex-wrap gap-4 p-4">
           {IMAGE_LIST.map(image => 
             <div className="flex flex-col justify-center items-center">
