@@ -1,12 +1,14 @@
-import { Router, Route, Link } from "wouter";
+import { Router, Route, Link, Switch } from "wouter";
 import App from "./App.tsx" 
+import Life from "./Life.tsx"
+import Projects from "./Projects.tsx"
 function Navigator() {
   return (
-    <Router base="/">
+    <Switch>
       <Route path="/"><App/></Route>
-      <Route path="/projects"></Route>
-      <Router path="/experience"></Router>
-    </Router>
+      <Route path="/projects"><Projects /></Route>
+      <Router path="/life"><Life /></Router>
+    </Switch>
   )
 }
 

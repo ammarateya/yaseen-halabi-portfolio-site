@@ -16,9 +16,9 @@ function App() {
             muted
           />
           <div className="flex flex-col text-sm md:text-base gap-auto md:justify-evenly gap-1 mb-3 max-w-100">
-            <div>Nice to meet you! Three things you should know:</div>
-            <div>1) I enjoy solving problems with software. I also enjoy solving problems with software.</div>
-            <div>2) This website was handcrafted, no LLMs.</div>
+            <div>Welcome to my site! A couple things you should know:</div>
+            <div>1) This website was handcrafted, no LLMs.</div>
+            <div>2) I enjoy solving problems with software. I also enjoy solving problems with software.</div>
             <div>3) We should chat. Even for no reason!</div>
             <div className="flex flex-row items-center gap-2">
               <div>DM me on LinkedIn: </div>
@@ -30,8 +30,8 @@ function App() {
         </div>
       </div>
       <div className="flex w-full h-full justify-center">
-        <a href="/projects" className="bg-blue-400 w-full py-10 text-white text-xl font-bold flex justify-center items-center cursor-pointer"><span>Projects</span><ChevronRight /></a>
-        <a href="/experience" className="bg-red-400 w-full py-10 text-white text-xl font-bold flex justify-center items-center cursor-pointer"><span>Experience</span><ChevronRight /></a>
+        <a href="/projects" className="bg-blue-400 w-full py-10 text-white text-xl font-bold flex justify-center items-center cursor-pointer"><span>Work/Projects</span><ChevronRight /></a>
+        <a href="/life" className="bg-red-400 w-full py-10 text-white text-xl font-bold flex justify-center items-center cursor-pointer"><span>Life</span><ChevronRight /></a>
       </div>
       {/* <div class="subtitle">This code was handcrafted without AI code/design</div> */}
     </div>
